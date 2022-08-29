@@ -1,0 +1,191 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+@font-face {
+  font-family: telegraf;
+  src: url(/telegraf.ttf) format("truetype");
+}
+
+.main{
+  width:100%;
+  height: 100%;
+  background-image: url(mainbg.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+.banner{
+  text-align: center;
+  color: #fff;
+  padding-top: 40%;
+}
+
+.banner h1{
+  font-family: telegraf;
+  font-size: 60px;
+}
+
+.banner p{
+  font-family: telegraf;
+  padding-top:80px;
+  font-size: 40px;
+}
+
+.blur{
+ text-align: center;
+ align-content: center;
+ padding: 80px 0 80px;
+ background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+ -webkit-backdrop-filter: blur (10px);
+ border:1px solid rgba(255, 255, 255, 0.18);
+ box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+ 
+}
+
+.blur button{
+  background: transparent;
+  border: none;
+  padding: 20px 0 20px;
+  
+}
+.blur button a{
+  font-size: 50px;
+  text-decoration: none;
+  color: #fff;
+  padding: 50px;
+  
+}
+
+address p{
+  font-family: telegraf;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.main-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.fb a img{
+  height: 100px;
+  width: 100px;
+  padding-left: 50px;
+  padding-top:100px;
+}
+
+.twitter a img{
+  height:165px;
+  width:165px;
+  padding-left: 20px;
+  padding-top: 67px;
+  padding-right:20px;
+}
+
+.contact-devs{
+  color: #fff;
+  font-size: 40px;
+  padding:50px 50px 0;
+  font-family: telegraf;
+  
+}
+
+.contact-devs ul{
+  list-style: none;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.contact-devs ul li{
+ color: #fff; 
+ text-decoration: none;
+ font-family: telegraf;
+}
+@media only screen and (max-width:700px){
+  
+  .blur{
+    padding: 27px 0 27px;
+  }
+  
+  .blur button{
+    padding: 8px 0 8px;
+  }
+  
+  .blur button a{
+    font-size:20px;
+    padding: 15px;
+  }
+  
+  .banner h1{
+  font-family: telegraf;
+  font-size: 25px;
+}
+
+.banner p{
+  font-family: telegraf;
+  padding-top:40px;
+  font-size: 15px;
+}
+
+address p{
+  font-family: telegraf;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.main-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.fb a img{
+  height: 40px;
+  width: 40px;
+  padding-left: 50px;
+  padding-top:20px;
+  padding-right: 10px;
+}
+
+.twitter a img{
+  height: 65px;
+  width:65px;
+  padding-right: 35px;
+  padding-top: 6px;
+}
+
+.contact-devs{
+  color: #fff;
+  font-size: 15px;
+  padding:20px 15px 0;
+  font-family: telegraf;
+  padding: 10px 10px 0;
+}
+
+.contact-devs ul{
+  padding-top: 10px;
+  text-decoration: none;
+  list-style: none;
+  
+  
+}
+
+.contact-devs ul li{
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+}
